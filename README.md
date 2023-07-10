@@ -1,19 +1,13 @@
-## Notice: Mintify Writer is no longer being updated by the Mintlify Team. Get started with our customer documentation product [here](mintlify.com/start).
-
 # ✍️ Mintlify Writer
-
-![Ratings](https://img.shields.io/visual-studio-marketplace/r/mintlify.document) [![discord](https://img.shields.io/discord/911693009253466123?logo=Discord&logoColor=white)](https://discord.gg/6W7GuYuxra) [![GitHub Stars](https://img.shields.io/github/stars/mintlify/vscode-docs?style=social)](https://github.com/mintlify/vscode-docs) [![Twitter](https://img.shields.io/twitter/follow/mintlify?style=social)](https://twitter.com/mintlify)
 
 Writing documentation sucks. Let Mintlify take care of it. Just highlight code and see the magic.
 
-[![Demo](vscode/assets/demo-docs.gif)](https://www.loom.com/embed/3dbfcd7e0e1b47519d957746e05bf0f4)
+## OG DOCS
 
 ### 👩‍💻 How to generate documentation
 
 **Step 1** Highlight code or place cursor on the line you want to document
 **Step 2** Click on the `Write Docs` button (or hit ⌘ + .)
-
-<img src="vscode/assets/demo.gif" width="520px" />
 
 ### 📝 Languages supported
 
@@ -29,7 +23,6 @@ Writing documentation sucks. Let Mintlify take care of it. Just highlight code a
 - Rust
 - Dart
 - Go
-- 🚧 More under construction
 
 ### 📑 Docstring formats supported
 
@@ -42,17 +35,14 @@ Writing documentation sucks. Let Mintlify take care of it. Just highlight code a
 - GoDoc
 - XML
 - Google
-- 🚧 More under construction
 
-### 🚨 Disclaimer
+### Credits
 
-We never store your code, but your code does leave your machine.
+Thank you for the great work @Mintlify_team
 
----
+## Repo Info
 
-### More information
-
-[Website](https://mintlify.com/)
-[Twitter](https://twitter.com/mintlify)
-
-_Built with 💚 by the Mintlify team_
+1. Uses @mintlify/grove to parse code into an Abstrat Syntax Tree (AST)
+2. There are 3 parts in the repo
+   1. Server: This is where the magic happens
+   2. Vscode: This is the extnsion that is used to communicate with the server
